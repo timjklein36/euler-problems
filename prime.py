@@ -13,6 +13,7 @@ def eratosthenes_sieve(limit):
 
 
 def primes_gen(n):
+    # This algorithm could use some optimization
     a = [2]
     i = 3
 
